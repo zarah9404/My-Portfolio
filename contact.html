@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <title>Fatima Musa Ahmad - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    background-color: green;
+    color: black ;
+}
+.logo {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+#navbar{ 
+   background-color: green;
+   position : fixed ;
+   z-index :1000;
+   top:0;
+   padding-top:20px ;
+   width:100%;
+   margin-bottom :20px;
+   border-bottom :4px solid white ;
+   padding :10px;
+}
+#navbar a{
+    color:white;
+    margin:2px;
+    text-decoration: none;
+}
+section {
+    padding: 80px  ;
+    background-color:white ;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+h2 {
+    font-size:40px ;
+    text-align: center;
+    margin-bottom: 40px;
+    position :relative;
+    color: green;
+    margin-bottom: 30px;
+}
+h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:-1px;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    border-radius: 2px;
+}
+#contact{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+    font-family :fantasy;
+    margin:0 auto ;
+    padding :40px 20px ;
+    padding-bottom :0 auto;
+    margin-top:150px;
+}
+input,textarea {
+    width: 80%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top :20px;
+}
+button{
+    padding :8px 12px;
+    background-color :green;
+    color:white;
+    font-weight: bold;
+}
+form a{
+  margin-top: 15px;
+  padding: 10px 15px;
+  background:  #007bff;
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+footer{
+  background-color:  #2c3e50;
+  color: white;
+  font-size: 15px;
+  margin :5px;
+  text-align: center;
+  border-radius: 20px;
+}
+@media(max-width: 768px){
+   body{
+       font-family: sans-serif;
+       line-height: 1.6;
+}
+iframe{
+    width:250px;
+    height:150px;
+    align-items:center;
+}
+#map{
+    margin-top:20px;
+}
+#menu{
+    text-align:center;
+    text-transform:capitalize;
+}
+
+</style>
+<body>
+ <nav id="navbar">
+            <a href="logo.jpg" class="logo">Fatima Musa Ahmad</a>
+            <div>
+         <a href="welcome.html">Welcome</a>|         
+            <a href="about.html">About</a>|
+            <a href="skills.html">Skills</a>|
+            <a href="project.html">Project</a>|
+            <a href="contact.html">Contact</a>|
+            <a href="media.html">Media</a>
+            <div id="menu">
+                |<a href="index.html">back to home</a>|
+            </div>
+     
+             </div>  
+   </nav>
+    <section id="contact"><div></div>
+            <h2>Get in Touch</h2>
+            <p>I'm currently open to new opportunities and collaborations. Feel free to reach out!</p>
+            <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <br>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <br>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <br>
+            <button type="submit" class="btn">Send Message</button>
+            <br>
+            <br>
+            <a href="https://github.com/zarah9404/My-Responsive-Portfolio-Webpage-/" target ="_blank" id="profile-link">Visit My GitHub</a>
+   </form>
+   </section>
+      <section id="map">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.253668020269!2d8.331400915273174!3d12.10759818876675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11ae7b2aa811318b%3A0xa0ecde193c4be2ea!2sDawakin%20Tofa%20Model%20Pri.School!5e0!3m2!1sen!2sng!4v1698863500000!5m2!1sen!2sng" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</section>
+ <footer>
+            <div class="container">
+            <p>&copy; 2025 Fatima Musa Ahmad. All rights reserved.</p>
+  </div>
+  </footer>
+  </body>
+  </html>
+  

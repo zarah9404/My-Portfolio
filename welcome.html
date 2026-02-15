@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <title>Fatima Musa Ahmad - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    background-color: green;
+    color: black ;
+}
+.logo {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+#navbar{ 
+   background-color: green;
+   position : fixed ;
+   z-index :1000;
+   top:0;
+   padding-top:20px ;
+   width:100%;
+   margin-bottom :20px;
+   border-bottom :4px solid white ;
+   padding :10px;
+}
+#navbar a{
+    color:white;
+    margin:2px;
+    text-decoration: none;
+}
+section {
+    padding: 80px  ;
+    background-color:white ;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+#welcome {
+    background-color:#65656e ;
+    color: white;
+    text-align: center;
+    padding: 150px 0; 
+    margin-top:120px;
+}
+#welcome h1 {
+    font-size:70px;
+    text-transform:capitalize;  
+}
+#welcome p {
+    font-size:20px;
+    font-family :fantasy;
+}
+h2 {
+    font-size:40px ;
+    text-align: center;
+    margin-bottom: 40px;
+    position :relative;
+    color: green;
+    margin-bottom: 30px;
+}
+h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:-1px;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    border-radius: 2px;
+}
+footer{
+  background-color:  #2c3e50;
+  color: white;
+  font-size: 15px;
+  margin :5px;
+  text-align: center;
+  border-radius: 20px;
+}
+@media(max-width: 768px){
+   body{
+       font-family: sans-serif;
+       line-height: 1.6;
+       }
+       #menu{
+    text-align:center;
+    text-transform:capitalize;
+    margin-top:10px;
+}
+</style>
+<body>
+ <nav id="navbar">
+            <a href="logo.jpg" class="logo">Fatima Musa Ahmad</a>
+            <div>
+         <a href="welcome.html">Welcome</a>|         
+            <a href="about.html">About</a>|
+            <a href="skills.html">Skills</a>|
+            <a href="project.html">Project</a>|
+            <a href="contact.html">Contact</a>|
+            <a href="index.html">Media</a>
+             </div>  
+             <div id="menu">
+              | <a href="home.html">back to home</a>|
+            </div>
+   </nav>
+           <section id="welcome">
+           <h1>Welcome! My name is Fatima Musa Ahmad</h1>
+           <p>A passionate Web Developer from Kano, Nigeria.</p>
+    </section>
+            <footer>
+            <div class="container">
+            <p>&copy; 2025 Fatima Musa Ahmad. All rights reserved.</p>
+  </div>
+  </footer>
+  </body>
+  </html>
+  
